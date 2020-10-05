@@ -1,0 +1,22 @@
+.Menu{
+    width: 100%;
+    background-color: #001233;
+    color: blanchedalmond;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    margin-right: 35px;
+}
+ul li a{
+    cursor: pointer;
+
+}
+ul li a:hover{
+    color: #00b4d8;
+}

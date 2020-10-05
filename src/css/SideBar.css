@@ -1,0 +1,44 @@
+.SideBar{
+    width: 250px;
+    height: 100%;
+    background-color: #001233;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.ul li{
+    list-style: none;
+    margin: 0 0 35px 0;
+
+}
+.ul li a{
+    cursor: pointer;
+    color: #fff;
+
+}
+.ul li a:hover{
+    color: #47a81a;
+}
+
+
+@media screen and (max-width:470px){
+
+.SideBar{
+    width: 100% !important;
+    height: 10vh;
+}
+.ul{
+    flex-direction: row;
+
+}
+
+.ul li{
+    margin: 0  35px 0 0;
+
+}
+}

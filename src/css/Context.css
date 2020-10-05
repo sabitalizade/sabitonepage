@@ -1,0 +1,24 @@
+.Context{
+    width: 100%;
+    height: 80vh;
+    background: #002855;
+}
+.mainavatar{
+    position: relative;
+    overflow: hidden;
+}
+
+.mainavatar img{
+    width: 100%;
+    height: 79vh;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:470px){
+.Context{
+    height: 65vh;
+}
+.mainavatar img{
+    height: 64vh;
+}
+}

@@ -1,0 +1,10 @@
+.MainBar{
+    display: flex;
+}
+
+@media screen and (max-width:470px){
+.MainBar{
+    flex-direction: column;
+}
+
+}
