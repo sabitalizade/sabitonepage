@@ -1,7 +1,7 @@
 .SideBar{
     width: 250px;
     height: 100%;
-    background-color: #001233;
+    background-color: #0F0F1B;
 }
 
 .ul{
@@ -31,6 +31,7 @@
 .SideBar{
     width: 100% !important;
     height: 10vh;
+    margin-top: 5vh;
 }
 .ul{
     flex-direction: row;

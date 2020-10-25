@@ -7,13 +7,13 @@ function SideBar() {
       
       <ul className="ul">
             <li>
-            <a href="https://facebook.com/sabitalizada/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/sabitalizade/"><i className="fab fa-instagram"></i></a>
             </li>
             <li>
-            <a href="https://instagram.com/sabitalizade/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/alizadesabit"><i className="fab fa-twitter"></i></a>
             </li>
             <li>
-            <a href="https://github.com/sabitalizade/"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/sabitalizade/"><i className="fab fa-github"></i></a>
 
             </li>
         </ul>

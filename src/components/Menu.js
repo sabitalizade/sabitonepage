@@ -1,22 +1,26 @@
 import React from 'react';
 import '../css/Menu.css';
-
+import {    Link  } from "react-router-dom";
 
 function Menu() {
   return (
     <div className="Menu">
-      
+    
+
+    
+
         <ul>
             <li>
-                <a>Home</a>
+                <Link className="a" to='/'>Home</Link>
             </li>
             <li>
-                <a>Portfolio</a>
+                <Link className="a" to='/portfolio'>Portfolio</Link>
             </li>
             <li>
-                <a>Contact</a>
+                <Link className="a"to='/contact'>Contact</Link>
             </li>
         </ul>
+     
     </div>
   );
 }

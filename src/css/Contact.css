@@ -1,0 +1,35 @@
+.Contact{
+
+    background: #171727;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px;
+    height: 80vh;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.Contact i{
+    font-size: 30px;
+    margin: 0 20px 0 0;
+}
+
+@media screen and (max-width:470px){
+
+    .Contact{
+        
+        max-height: 65vh !important;
+    }
+    .Contact .ul{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 5vw;
+    
+    }
+    
+    .Contact .ul li{
+        margin: 0  0 35px 0;
+    
+    }
+    }

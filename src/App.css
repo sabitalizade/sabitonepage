@@ -4,3 +4,26 @@
   flex-direction: column;
   height: 100vh;
 }
+.MainBar{
+  display: flex;
+}
+
+@media screen and (max-width:470px){
+.MainBar{
+  flex-direction: column;
+}
+
+}
+
+.Header{
+  display: flex;
+  
+}
+
+
+@media screen and (max-width:470px){
+  .Header{
+          flex-direction: column;
+          min-height: 20vh;
+  }
+}

@@ -1,6 +1,6 @@
 .Menu{
     width: 100%;
-    background-color: #001233;
+    background-color: #0F0F1B;
     color: blanchedalmond;
 }
 ul{
@@ -13,10 +13,19 @@ ul li{
     list-style: none;
     margin-right: 35px;
 }
-ul li a{
+ul li .a{
     cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 
 }
-ul li a:hover{
+ul li .a:hover{
     color: #00b4d8;
+}
+
+@media(max-width: 850px) {
+    .Menu{
+z-index: 555;
+    }
 }

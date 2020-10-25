@@ -1,14 +1,30 @@
 import React from 'react';
+import {  BrowserRouter as Router,   Route} from "react-router-dom";
 import './App.css';
-import Header from "./components/Header";
-import MainBar from './components/MainBar';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Context from './components/Context';
+import SideBar from './components/SideBar';
+import Logo from './components/Logo';
+import Menu from './components/Menu';
 
 function App() {
   return (
+   <Router>     
     <div className="App">
-   <Header/>
-   <MainBar/>
+    <div className="Header">
+        <Logo/>
+         <Menu/>
     </div>
+   <div className="MainBar">
+        <SideBar/>     
+         <Route path="/" exact component={Context}/>
+         <Route path="/portfolio" component={Portfolio}/>
+         <Route path="/contact" component={Contact}/>
+
+    </div>
+    </div>
+     </Router>
   );
 }
 
