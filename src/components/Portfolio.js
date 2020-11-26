@@ -12,12 +12,10 @@ import '../css/Portfolio.css'
                 <li>
                         <div className="item">
                             <a target='_blank'  rel="noopener noreferrer" href="https://brainhouseanticafe.herokuapp.com/" class="image">
-                                {/* <span className="number">20</span> */}
                                 <img loading="lazy" src="img/20.jpg"
-                                     alt="dd"></img>
+                                     alt="BrainHouse"></img>
                              </a>
                             <span className="title">Brain House</span>
-                            {/* <div className="date">20 Ekim 2020</div> */}
                             <div className="actions">
                                 <a target='_blank'  rel="noopener noreferrer" href="https://brainhouseanticafe.herokuapp.com/">
                                     View							</a>
@@ -27,12 +25,12 @@ import '../css/Portfolio.css'
                 <li>
                         <div className="item">
                             <a target='_blank'  rel="noopener noreferrer" href="https://alizade.herokuapp.com/" class="image">
-                                {/* <span className="number">20</span> */}
+                                 
                                 <img loading="lazy" src="img/21.jpg"
-                                     alt="dd"></img>
+                                     alt="Alizade"></img>
                              </a>
-                            <span className="title">Brain House</span>
-                            {/* <div className="date">20 Ekim 2020</div> */}
+                            <span className="title">Portfolio with React</span>
+                            
                             <div className="actions">
                                 <a target='_blank'  rel="noopener noreferrer" href="https://alizade.herokuapp.com/">
                                     View							</a>
@@ -42,14 +40,44 @@ import '../css/Portfolio.css'
                 <li>
                         <div className="item">
                             <a target='_blank'  rel="noopener noreferrer" href="https://sabitalizade.herokuapp.com/" class="image">
-                                {/* <span className="number">20</span> */}
+                               
                                 <img loading="lazy" src="img/22.jpg"
-                                     alt="dd"></img>
+                                     alt="SabitAlizade"></img>
                              </a>
-                            <span className="title">Brain House</span>
-                            {/* <div className="date">20 Ekim 2020</div> */}
+                            <span className="title">Blog with Php</span>
+                             
                             <div className="actions">
                                 <a target='_blank'  rel="noopener noreferrer" href="https://sabitalizade.herokuapp.com/">
+                                    View							</a>
+                            </div>
+                        </div>
+                </li>             
+                <li>
+                        <div className="item">
+                            <a target='_blank'  rel="noopener noreferrer" href="https://asyatodo.netlify.app/" class="image">
+                               
+                                <img loading="lazy" src="img/23.png"
+                                     alt="Todo"></img>
+                             </a>
+                            <span className="title">Todo with React</span>
+                             
+                            <div className="actions">
+                                <a target='_blank'  rel="noopener noreferrer" href="https://asyatodo.netlify.app/">
+                                    View							</a>
+                            </div>
+                        </div>
+                </li>             
+                <li>
+                        <div className="item">
+                            <a target='_blank'  rel="noopener noreferrer" href="https://asya.netlify.app/" class="image">
+                               
+                                <img loading="lazy" src="img/24.png"
+                                     alt="Todo"></img>
+                             </a>
+                            <span className="title">Chat with React</span>
+                             
+                            <div className="actions">
+                                <a target='_blank'  rel="noopener noreferrer" href="https://asya.netlify.app/">
                                     View							</a>
                             </div>
                         </div>
