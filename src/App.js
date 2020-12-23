@@ -1,6 +1,6 @@
 import React from 'react';
 import {  BrowserRouter as Router,   Route} from "react-router-dom";
-import './App.css';
+import './App.scss';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Context from './components/Context';
