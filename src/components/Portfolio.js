@@ -10,13 +10,13 @@ import '../css/Portfolio.css'
             <ul className="list">                           
                 <li>
                         <div className="item">
-                            <a target='_blank'  rel="noopener noreferrer" href="https://autonuh.netlify.app/" class="image">
+                            <a target='_blank'  rel="noopener noreferrer" href="https://autonuh.vercel.app/" class="image">
                                 <img loading="lazy" src="img/19.png"
                                      alt="BrainHouse"></img>
                              </a>
                             <span className="title">AutoNuh</span>
                             <div className="actions">
-                                <a target='_blank'  rel="noopener noreferrer" href="https://autonuh.netlify.app/">
+                                <a target='_blank'  rel="noopener noreferrer" href="https://autonuh.vercel.app/">
                                     View							</a>
                             </div>
                         </div>
