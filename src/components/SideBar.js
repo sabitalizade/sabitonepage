@@ -10,7 +10,7 @@ function SideBar() {
             <a href="https://instagram.com/sabitalizade/"><i className="fab fa-instagram"></i></a>
             </li>
             <li>
-            <a href="https://twitter.com/alizadesabit"><i className="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/sabitalizada"><i className="fab fa-twitter"></i></a>
             </li>
             <li>
             <a href="https://github.com/sabitalizade/"><i className="fab fa-github"></i></a>
