@@ -12,7 +12,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-    padding-top: 20px
+    padding-top: 20px;
+    overflow-y: auto;
 }
 .main .list li {
     width: calc(100% / 4 - 30px);
