@@ -36,7 +36,7 @@ function Portfolio() {
                 href="https://sasocket.vercel.app/"
                 class="image"
               >
-                <img loading="lazy" src="img/19.png" alt="MERN Socket.io chat"></img>
+                <img loading="lazy" src="img/25.png" alt="MERN Socket.io chat"></img>
               </a>
               <span className="title">MERN Socket.io chat</span>
               <div className="actions">
@@ -58,7 +58,7 @@ function Portfolio() {
                 href="https://sachat.vercel.app/"
                 class="image"
               >
-                <img loading="lazy" src="img/19.png" alt="MERN Pusher chat"></img>
+                <img loading="lazy" src="img/25.png" alt="MERN Pusher chat"></img>
               </a>
               <span className="title">MERN Pusher chat</span>
               <div className="actions">
