@@ -14,7 +14,7 @@ function Portfolio() {
                 href="https://autonuh.vercel.app/"
                 class="image"
               >
-                <img loading="lazy" src="img/19.png" alt="BrainHouse"></img>
+                <img loading="lazy" src="img/19.png" alt="autonuh"></img>
               </a>
               <span className="title">AutoNuh</span>
               <div className="actions">
@@ -22,6 +22,50 @@ function Portfolio() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://autonuh.vercel.app/"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://sasocket.vercel.app/"
+                class="image"
+              >
+                <img loading="lazy" src="img/19.png" alt="MERN Socket.io chat"></img>
+              </a>
+              <span className="title">MERN Socket.io chat</span>
+              <div className="actions">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sasocket.vercel.app/"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://sachat.vercel.app/"
+                class="image"
+              >
+                <img loading="lazy" src="img/19.png" alt="MERN Pusher chat"></img>
+              </a>
+              <span className="title">MERN Pusher chat</span>
+              <div className="actions">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sachat.vercel.app/"
                 >
                   View
                 </a>
