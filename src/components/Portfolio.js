@@ -33,6 +33,28 @@ function Portfolio() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
+                href="https://shakingtree.vercel.app/"
+                class="image"
+              >
+                <img loading="lazy" src="img/18.png" alt="shaking tree"></img>
+              </a>
+              <span className="title">Shaking Tree</span>
+              <div className="actions">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://shakingtree.vercel.app/"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="item">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://sasocket.vercel.app/"
                 class="image"
               >
