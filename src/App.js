@@ -7,6 +7,7 @@ import Context from './components/Context';
 import SideBar from './components/SideBar';
 import Logo from './components/Logo';
 import Menu from './components/Menu';
+import Cv from './components/Cv';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
          <Route path="/" exact component={Context}/>
          <Route path="/portfolio" component={Portfolio}/>
          <Route path="/contact" component={Contact}/>
+         <Route path="/cv" component={Cv}/>
 
     </div>
     </div>

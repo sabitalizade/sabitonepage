@@ -17,6 +17,9 @@ function Menu() {
                 <Link className="a" to='/portfolio'>Portfolio</Link>
             </li>
             <li>
+                <Link className="a" to='/cv'>Cv</Link>
+            </li>
+            <li>
                 <Link className="a"to='/contact'>Contact</Link>
             </li>
         </ul>
