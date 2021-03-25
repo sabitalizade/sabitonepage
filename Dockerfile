@@ -4,6 +4,7 @@ WORKDIR /
 COPY . .
 
 # RUN npm install
+RUN npm i
 RUN npm run build
 RUN npm install -g serve
 
