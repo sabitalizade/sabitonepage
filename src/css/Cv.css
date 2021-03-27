@@ -1,129 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    
+* {
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
-:root{
-    --border-div-size: 165px;
-    --img-size: 150px;
-    --main-color: #25dac1;
+:root {
+  --border-div-size: 165px;
+  --img-size: 150px;
+  --main-color: #25dac1;
 }
-.cv{
-    background: #fff;
-    min-height: 1122px;
-    min-width: 793px;
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 0;
-    overflow: hidden;
+.cv {
+  background: #fff;
+  min-height: 1122px;
+  min-width: 793px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  overflow: hidden;
 }
 .cv .left {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    /* background: turquoise; */
+  width: 35%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cv .left .picture {
-    width: var(--border-div-size);
-    height: var(--border-div-size);
-    border-radius: 50%;
-    border: 8px rgb(124, 230, 215) solid;
-    margin: 0 auto;
-    margin-top: 10%;
+  width: var(--border-div-size);
+  height: var(--border-div-size);
+  border-radius: 50%;
+  border: 8px rgb(124, 230, 215) solid;
+  margin: 0 auto;
+  margin-top: 10%;
 }
-.cv .left .picture img{
-    width: var(--img-size);
-    height: var(--img-size);
-    border-radius: 50%;
-    border: 8px var(--main-color) solid;
+.cv .left .picture img {
+  width: var(--img-size);
+  height: var(--img-size);
+  border-radius: 50%;
+  border: 8px var(--main-color) solid;
 }
-.cv .left .header-title{
-    padding: 10px 0 ;
-    background:var(--main-color);
-    margin-top: 2rem;
-    padding-left: 1rem;
-    color: #fff;
-    width: 100%;
-    font-size: 22px;
+.cv .left .header-title {
+  padding: 10px 0;
+  background: var(--main-color);
+  margin-top: 2rem;
+  padding-left: 1rem;
+  color: #fff;
+  width: 100%;
+  font-size: 22px;
 }
 .cv .left .skills-list ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
 }
-.cv .left .skills-list ul li{
-    padding-bottom: 4px;
-    font-size: 20px;
+.cv .left .skills-list ul li {
+  padding-bottom: 4px;
+  font-size: 20px;
 }
 .cv .right {
-    width:63%;
-    display: flex;
-    flex-direction: column;
-    /* background: yellowgreen; */
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  /* background: yellowgreen; */
 }
-.cv  .right .name{
-    font-size: 50px;
-    color: var(--main-color);
-    margin: 6rem 0 1rem 3rem;
+.cv .right .name {
+  font-size: 50px;
+  color: var(--main-color);
+  margin: 6rem 0 1rem 3rem;
 }
-.cv .right .prof{
-    margin:0 0 1rem 3rem;
-    font-size: 20px;
-    font-weight: 700;
+.cv .right .prof {
+  margin: 0 0 1rem 3rem;
+  font-size: 20px;
+  font-weight: 700;
 }
-.cv .right .icons img{
+.cv .right .icons img {
   width: 4rem;
   padding-left: 1rem;
   margin-right: 2rem;
 }
-.cv .right .title{
-    padding: 10px 0 ;
-    background:var(--main-color);
-    margin-top: 2rem;
-    padding-left: 1rem;
-    color: #fff;
-    width: 100%;
-    font-size: 22px;
-    margin-bottom: 1rem;
+.cv .right .title {
+  padding: 10px 0;
+  background: var(--main-color);
+  margin-top: 2rem;
+  padding-left: 1rem;
+  color: #fff;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 1rem;
 }
-.cv .right .text{
-    padding-left: 2rem;
+.cv .right .text {
+  padding-left: 2rem;
 }
-.cv .right .text p{
-    margin-bottom: 1rem;
+.cv .right .text p {
+  margin-bottom: 1rem;
+}
+.cv .right .text .job-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.cv .right .text .time {
+  font-style: italic;
+  margin: 0;
+}
+.cv .right .text ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cv .right .m-t {
+  margin-top: 3rem;
 }
 
-.cv .right .text .job-title{
-    font-size: 22px ;
-    font-weight: 500;
-    
-}
-.cv .right .text .time{
-    font-style: italic;
+@media print {
+  * {
     margin: 0;
-}
-.cv .right .text ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.cv .right .m-t{
-    margin-top: 3rem;
-    
-}
-
-@media print{
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .Header{
-        display: none;
-    }
-    .MainBar .SideBar{
-        display: none !important;
-    }
+    padding: 0;
+  }
+  .Header {
+    display: none;
+  }
+  .MainBar .SideBar {
+    display: none !important;
+  }
 }

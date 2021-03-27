@@ -19,6 +19,7 @@
 .ul li a{
     cursor: pointer;
     color: #fff;
+    font-size: 30px;
 
 }
 .ul li a:hover{
