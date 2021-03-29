@@ -8,13 +8,16 @@
   --img-size: 150px;
   --main-color: #25dac1;
 }
+.container{
+overflow: auto;
+}
 .cv {
   background: #fff;
   min-height: 1122px;
   min-width: 793px;
   display: flex;
   justify-content: space-between;
-  margin: 15px 0;
+  /* margin: 0 0; */
   overflow: hidden;
 }
 .cv .left {

@@ -32,4 +32,7 @@ a{
         margin: 0  0 35px 0;
     
     }
+    .Contact .ul li a>span{
+        display:none;
+    }
     }

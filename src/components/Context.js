@@ -9,7 +9,7 @@ import react from '../icons/skills-icon/react-2.svg'
 import redux from '../icons/skills-icon/redux.svg'
 import vue from '../icons/skills-icon/vue-js-1.svg'
 import sass from '../icons/skills-icon/sass-1.svg'
-import express from '../icons/skills-icon/express-109.svg'
+import express from '../icons/skills-icon/ex.svg'
 
 function Context() {
   const [width, setwidth] = useState("100%")
@@ -167,6 +167,8 @@ function Context() {
             
           </ul>
         </div>
+
+        
     </div>
   );
 }

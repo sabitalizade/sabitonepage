@@ -26,7 +26,7 @@
     width: 80%;
     max-height: 100vh;
     padding: 40px 40px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .skills .header-info{
     background: var(--main-color) ;
