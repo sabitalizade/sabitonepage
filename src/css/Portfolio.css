@@ -2,7 +2,7 @@
 .main{
     background: #171727;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     padding: 0 20px;
     height: 80vh;
     box-sizing: border-box;
