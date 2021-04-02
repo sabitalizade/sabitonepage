@@ -17,8 +17,7 @@ function Portfolio() {
               <span className="title">AutoNuh</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://autonuh.vercel.app/"
                 >
                   View
@@ -37,9 +36,27 @@ function Portfolio() {
               <span className="title">Covid19 tracker with VueJs</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://covid19trackerapp.vercel.app/"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="item">
+              <a
+                href="https://covid19trackerreact.vercel.app/"
+                class="image"
+              >
+                <img loading="lazy" src="img/1.png" alt="autonuh"></img>
+              </a>
+              <span className="title">Covid19 tracker with ReactJs</span>
+              <div className="actions">
+                <a
+                 
+                  href="https://covid19trackerreact.vercel.app/"
                 >
                   View
                 </a>
@@ -57,8 +74,7 @@ function Portfolio() {
               <span className="title">Shaking Tree</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://shakingtree.vercel.app/"
                 >
                   View
@@ -77,8 +93,7 @@ function Portfolio() {
               <span className="title">VueJs Todo app</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://vuetodoapp.vercel.app/"
                 >
                   View
@@ -97,8 +112,7 @@ function Portfolio() {
               <span className="title">MERN Socket.io chat</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://sasocket.vercel.app/"
                 >
                   View
@@ -117,8 +131,7 @@ function Portfolio() {
               <span className="title">MERN Pusher chat</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://sachat.vercel.app/"
                 >
                   View
@@ -137,8 +150,7 @@ function Portfolio() {
               <span className="title">Brain House</span>
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://brainhouseanticafe.herokuapp.com/"
                 >
                   View{" "}
@@ -158,8 +170,7 @@ function Portfolio() {
 
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://alizade.herokuapp.com/"
                 >
                   View{" "}
@@ -179,8 +190,7 @@ function Portfolio() {
 
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://sabitalizade.herokuapp.com/"
                 >
                   View{" "}
@@ -200,8 +210,7 @@ function Portfolio() {
 
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://asyatodo.netlify.app/"
                 >
                   View{" "}
@@ -221,8 +230,7 @@ function Portfolio() {
 
               <div className="actions">
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
+                 
                   href="https://asya.netlify.app/"
                 >
                   View{" "}
