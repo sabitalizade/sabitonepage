@@ -8,13 +8,14 @@
     display: flex;
 }
 .mainavatar{
-    /* position: relative; */
+    position: relative;
     overflow: hidden;
     transition: 1s;
 
 }
 
 .mainavatar svg{
+    position: absolute;
     width: 100%;
     max-height: 79vh;
     align-items: flex-start;
@@ -22,6 +23,7 @@
     box-sizing: border-box;
     fill: rgb(36, 223, 223);
 }
+
 .skills{
     width: 80%;
     max-height: 100vh;

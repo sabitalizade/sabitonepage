@@ -2,16 +2,12 @@ import React from 'react';
 import '../css/Menu.css';
 import {    Link  } from "react-router-dom";
 
-function Menu() {
+const Menu = ()=> {
   return (
     <div className="Menu">
-    
-
-    
-
         <ul>
             <li>
-                <Link className="a" to='/'>Skills</Link>
+                <Link className="a" to='/'>Home</Link>
             </li>
             <li>
                 <Link className="a" to='/portfolio'>Portfolio</Link>

@@ -2,11 +2,14 @@
 .main{
     background: #171727;
     width: 100%;
-    overflow-x: hidden;
+    overflow: auto;
     padding: 0 20px;
     height: 80vh;
     box-sizing: border-box;
     overflow-y: auto;
+}
+.main .hidden{
+    overflow: hidden;
 }
 .main .list {
     display: flex;

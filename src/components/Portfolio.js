@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/Portfolio.css";
 
-function Portfolio() {
+const Portfolio = ()=> {
   return (
     <div className="main">
-      <div className="container">
+      <div className="container hidden">
         <ul className="list">
           <li>
             <div className="item">

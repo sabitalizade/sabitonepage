@@ -6,7 +6,7 @@ import tungsten from "../icons/tungsten-24px.svg";
 import "../css/Portfolio.css";
 import "../css/Cv.css";
 
-function Cv() {
+const Cv = ()=> {
   return (
     <div className="main">
       <div className="container">

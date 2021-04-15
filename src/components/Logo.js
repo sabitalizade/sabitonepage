@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Logo.css';
 
-function Logo() {
+const Logo = () => {
   return (
-    <div className="Logo">
+    <Link to="/" className="Logo">
          <img src="/logo/default-monochrome-white.svg" alt='sss'/>
-    </div>
+    </Link>
   );
 }
 
