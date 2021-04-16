@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/sabitalizade.github.io/static/css/main.b6634dda.chunk.css",
-    "main.js": "/sabitalizade.github.io/static/js/main.a646d6c4.chunk.js",
-    "main.js.map": "/sabitalizade.github.io/static/js/main.a646d6c4.chunk.js.map",
-    "runtime-main.js": "/sabitalizade.github.io/static/js/runtime-main.70f28286.js",
-    "runtime-main.js.map": "/sabitalizade.github.io/static/js/runtime-main.70f28286.js.map",
-    "static/js/2.09cc353e.chunk.js": "/sabitalizade.github.io/static/js/2.09cc353e.chunk.js",
-    "static/js/2.09cc353e.chunk.js.map": "/sabitalizade.github.io/static/js/2.09cc353e.chunk.js.map",
-    "index.html": "/sabitalizade.github.io/index.html",
-    "precache-manifest.4e247c66c2abe918d86005b8f8b0a0b2.js": "/sabitalizade.github.io/precache-manifest.4e247c66c2abe918d86005b8f8b0a0b2.js",
-    "service-worker.js": "/sabitalizade.github.io/service-worker.js",
-    "static/css/main.b6634dda.chunk.css.map": "/sabitalizade.github.io/static/css/main.b6634dda.chunk.css.map",
-    "static/js/2.09cc353e.chunk.js.LICENSE.txt": "/sabitalizade.github.io/static/js/2.09cc353e.chunk.js.LICENSE.txt",
-    "static/media/coffee-24px.svg": "/sabitalizade.github.io/static/media/coffee-24px.a49d7f5e.svg",
-    "static/media/laptop-24px.svg": "/sabitalizade.github.io/static/media/laptop-24px.c5732a2b.svg",
-    "static/media/list_alt-24px.svg": "/sabitalizade.github.io/static/media/list_alt-24px.39051bfc.svg",
-    "static/media/tungsten-24px.svg": "/sabitalizade.github.io/static/media/tungsten-24px.48879119.svg"
+    "main.css": "/static/css/main.b6634dda.chunk.css",
+    "main.js": "/static/js/main.603a4155.chunk.js",
+    "main.js.map": "/static/js/main.603a4155.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3ec808a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3ec808a.js.map",
+    "static/js/2.09cc353e.chunk.js": "/static/js/2.09cc353e.chunk.js",
+    "static/js/2.09cc353e.chunk.js.map": "/static/js/2.09cc353e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.caf4e113606d7eca0ca95301f6ee3cec.js": "/precache-manifest.caf4e113606d7eca0ca95301f6ee3cec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b6634dda.chunk.css.map": "/static/css/main.b6634dda.chunk.css.map",
+    "static/js/2.09cc353e.chunk.js.LICENSE.txt": "/static/js/2.09cc353e.chunk.js.LICENSE.txt",
+    "static/media/coffee-24px.svg": "/static/media/coffee-24px.a49d7f5e.svg",
+    "static/media/laptop-24px.svg": "/static/media/laptop-24px.c5732a2b.svg",
+    "static/media/list_alt-24px.svg": "/static/media/list_alt-24px.39051bfc.svg",
+    "static/media/tungsten-24px.svg": "/static/media/tungsten-24px.48879119.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.70f28286.js",
+    "static/js/runtime-main.d3ec808a.js",
     "static/js/2.09cc353e.chunk.js",
     "static/css/main.b6634dda.chunk.css",
-    "static/js/main.a646d6c4.chunk.js"
+    "static/js/main.603a4155.chunk.js"
   ]
 }
