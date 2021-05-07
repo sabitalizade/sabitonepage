@@ -128,6 +128,16 @@ const Cv = ()=> {
               <div className="title">
               CAREER SUMMARY
               </div>
+              <div className="text" style={{marginBottom:"3rem"}}>
+                <p className="job-title">Frontend Devoloper</p>
+                <p className="time">MealperLTE | April 2021 - present </p>
+                <ul>
+                  <li>
+                  - Create Dashboard using React Js.
+                  </li>                 
+                 
+                </ul>
+              </div>
               <div className="text">
                 <p className="job-title">Frontend Devoloper</p>
                 <p className="time">Frelancer | May 2020 - present </p>
@@ -143,6 +153,7 @@ const Cv = ()=> {
                   </li>
                 </ul>
               </div>
+           
               <div className="title m-t">
               ACADEMIC HISTORY
               </div>
