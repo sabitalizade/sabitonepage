@@ -9,7 +9,7 @@ const Portfolio = ()=> {
           <li>
             <div className="item">
               <a
-                href="https://autonuh.vercel.app/"
+                href="https://nuhcar.com/"
                 class="image"
               >
                 <img loading="lazy" src="img/19.png" alt="autonuh"></img>
@@ -18,7 +18,7 @@ const Portfolio = ()=> {
               <div className="actions">
                 <a
                  
-                  href="https://autonuh.vercel.app/"
+                  href="https://nuhcar.com/"
                 >
                   View
                 </a>
