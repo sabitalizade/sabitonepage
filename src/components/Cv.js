@@ -130,6 +130,16 @@ const Cv = ()=> {
               </div>
               <div className="text" style={{marginBottom:"3rem"}}>
                 <p className="job-title">Frontend Devoloper</p>
+                <p className="time">At-Geoetch | June 2021 - present </p>
+                <ul>
+                  <li>
+                  - I am devoloped internal sistem using Vanila JavaScript, JQuery ReactJs .
+                  </li>                 
+                 
+                </ul>
+              </div>
+              <div className="text" style={{marginBottom:"3rem"}}>
+                <p className="job-title">Frontend Devoloper</p>
                 <p className="time">MealperLTE | April 2021 - present </p>
                 <ul>
                   <li>
@@ -148,9 +158,7 @@ const Cv = ()=> {
                   <li>
                   - Translates static websites into responsive ones.
                   </li>
-                  <li>
-                  - Spearheads a team of 5 web developers.
-                  </li>
+                  
                 </ul>
               </div>
            
