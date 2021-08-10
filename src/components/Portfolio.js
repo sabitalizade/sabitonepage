@@ -28,6 +28,25 @@ const Portfolio = ()=> {
           <li>
             <div className="item">
               <a
+                href="https://googlec.vercel.app/"
+                class="image"
+              >
+                <img loading="lazy" src="img/2.png" alt="autonuh"></img>
+              </a>
+              <span className="title">Google Clone</span>
+              <div className="actions">
+                <a
+                 
+                  href="https://googlec.vercel.app/"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="item">
+              <a
                 href="https://covid19trackerapp.vercel.app/"
                 class="image"
               >
