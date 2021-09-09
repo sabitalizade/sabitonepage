@@ -82,14 +82,14 @@ const Cv = ()=> {
               Cell: +994 70 671 74 74
                 </li>
                 <li>
-              Home: +994 60 271 74 71
+                Cell: +994 60 271 74 71
                 </li>
                 <li>
-              Email: sabitalizade@gmail.com
+              Email:sabitalizade@gmail.com
                 </li>
                 <li>
                   <address>
-              Address: Nakhchvan, Azerbaijan
+              Address: Baku, Azerbaijan
                   </address>
                 </li>
                 <li>

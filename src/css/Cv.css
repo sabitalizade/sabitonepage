@@ -124,4 +124,21 @@ overflow: auto;
   .MainBar .SideBar {
     display: none !important;
   }
+  .cv .left .header-title {
+    padding: 10px 0;
+    background: var(--main-color);
+    margin-top: 0;
+    padding-left: 1rem;
+   
+  }
+  .cv .right .title {
+  padding: 10px 0;
+  background: var(--main-color);
+  margin-top: 2rem;
+  padding-left: 1rem;
+  color: #fff;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
 }
