@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
 import coffee from "../icons/coffee-24px.svg";
 import laptop from "../icons/laptop-24px.svg";
 import list_alt from "../icons/list_alt-24px.svg";
 import tungsten from "../icons/tungsten-24px.svg";
 import "../css/Portfolio.css";
 import "../css/Cv.css";
+import ReactToPrint from "react-to-print";
+import { FcPrint } from 'react-icons/fc';
 
 const Cv = ()=> {
+  const cv = useRef()
   return (
     <div className="main">
       <div className="container">
-        <div className="cv">
+      <ReactToPrint
+          trigger={() => {
+            // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
+            // to the root node of the returned component as it will be overwritten.
+            return <div className="print"><FcPrint/></div>;
+          }}
+          content={() => cv.current}
+        />
+        <div className="cv" ref={cv}>
           <div className="left">
               <div className="picture">
                     <img src="./img/profile.jpg" alt="profile"/>

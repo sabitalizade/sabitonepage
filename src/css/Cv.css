@@ -17,7 +17,20 @@ display: flex;
 /* height: 100%; */
 justify-content: center;
 }
-
+.print{
+  position: fixed;
+  top: 25px;
+  right: 20vh;
+  height: 70px;
+  width: 70px;
+  background-color: #25dac1;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
 .cv {
   background: #fff;
   min-height: 1222px;
@@ -128,12 +141,9 @@ justify-content: center;
 .cv .right .m-t {
   margin-top: 3rem;
 }
-
+/* 
 @media print {
-  /* * {
-    margin: 0 !important;
-    padding: 0 !important;
-  } */
+  
 
   .Header {
     display: none;
@@ -144,7 +154,6 @@ justify-content: center;
   .cv{
     margin: 0 !important;
     padding: 0 !important;
-    transform: scale(0.6);
   }
   .cv .left .header-title {
     padding: 10px 0;
@@ -163,4 +172,4 @@ justify-content: center;
   font-size: 22px;
   margin-bottom: 1rem;
 }
-}
+} */
