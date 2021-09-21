@@ -1,5 +1,5 @@
-import React from 'react';
-import {  BrowserRouter as Router,   Route} from "react-router-dom";
+import React, {   useEffect, useState } from 'react';
+import { Route,useLocation } from "react-router-dom";
 import './App.scss';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -9,16 +9,24 @@ import Logo from './components/Logo';
 import Menu from './components/Menu';
 import Cv from './components/Cv';
 
-function App() {
+const App = ()=> {
+     const [href, sethref] = useState(false)
+     const {pathname} = useLocation(); 
+ 
+useEffect(() => {
+     pathname==="/cv"?sethref(true):sethref(false)
+}, [pathname])
+
+
   return (
-   <Router>     
+       <>
     <div className="App">
-    <div className="Header">
-        <Logo/>
+    <div className={href?"Header HeaderCv":"Header "}>
+        <Logo href={href}/>
          <Menu/>
     </div>
    <div className="MainBar">
-        <SideBar/>     
+        <SideBar href={href}/>     
          <Route path="/" exact component={Context}/>
          <Route path="/portfolio" component={Portfolio}/>
          <Route path="/contact" component={Contact}/>
@@ -26,7 +34,7 @@ function App() {
 
     </div>
     </div>
-     </Router>
+    </>
   );
 }
 

@@ -6,6 +6,9 @@
     place-items: center;
     font-size: 2px;
 }
+.LogoCv{
+    height: 100%;
+}
 
 .Logo img{
     max-width: 90vmin;

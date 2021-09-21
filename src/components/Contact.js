@@ -5,7 +5,7 @@ import '../css/Contact.css'
         <div className="Contact">
             <ul className="ul">
             <li>
-            <a href="tel:+994706717474"><i class="fas fa-mobile"></i><span> Phone:</span> +99470-671-74-74</a>
+            <a href="tel:+994706717474"><i className="fas fa-mobile"></i><span> Phone:</span> +99470-671-74-74</a>
 
             </li>
             <li>

@@ -10,7 +10,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://nuhcar.com/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/19.png" alt="autonuh"></img>
               </a>
@@ -29,7 +29,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://googlec.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/2.png" alt="autonuh"></img>
               </a>
@@ -48,7 +48,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://covid19trackerapp.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/1.png" alt="autonuh"></img>
               </a>
@@ -67,7 +67,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://covid19trackerreact.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/1.png" alt="autonuh"></img>
               </a>
@@ -86,7 +86,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://shakingtree.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/18.png" alt="shaking tree"></img>
               </a>
@@ -105,7 +105,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://vuetodoapp.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/23.png" alt="shaking tree"></img>
               </a>
@@ -124,7 +124,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://sasocket.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/25.png" alt="MERN Socket.io chat"></img>
               </a>
@@ -143,7 +143,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://sachat.vercel.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/25.png" alt="MERN Pusher chat"></img>
               </a>
@@ -162,7 +162,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://brainhouseanticafe.herokuapp.com/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/20.jpg" alt="BrainHouse"></img>
               </a>
@@ -181,7 +181,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://alizade.herokuapp.com/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/21.jpg" alt="Alizade"></img>
               </a>
@@ -201,7 +201,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://sabitalizade.herokuapp.com/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/22.jpg" alt="SabitAlizade"></img>
               </a>
@@ -221,7 +221,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://asyatodo.netlify.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/23.png" alt="Todo"></img>
               </a>
@@ -241,7 +241,7 @@ const Portfolio = ()=> {
             <div className="item">
               <a
                 href="https://asya.netlify.app/"
-                class="image"
+                className="image"
               >
                 <img loading="lazy" src="img/24.png" alt="Todo"></img>
               </a>

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/SideBar.css';
 
-const SideBar = ()=> {
+const SideBar = ({href})=> {
   return (
-    <div className="SideBar">
+    <div className={href?"SideBar SideBarCv": "SideBar"}>
       
       <ul className="ul">
             <li>

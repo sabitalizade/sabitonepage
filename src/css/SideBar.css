@@ -3,6 +3,10 @@
     height: 100%;
     background-color: #0F0F1B;
 }
+.SideBarCv {
+    display: none !important;
+    background-color: #47a81a !important;
+  }
 
 .ul{
     display: flex;
