@@ -67,7 +67,7 @@ const Cv = ()=> {
                   </ul>
                     
                   </div>
-                   <div className="header-title">I have information </div> 
+                   <div className="header-title">Extra knowledge </div> 
                   <div className="skills-list">
                   <ul>
                    <li>
@@ -139,7 +139,7 @@ const Cv = ()=> {
               <div className="title">
               CAREER SUMMARY
               </div>
-              <div className="text" style={{marginBottom:"3rem"}}>
+              <div className="text job" >
                 <p className="job-title">Frontend Devoloper</p>
                 <p className="time">At-Geoetch | June 2021 - present </p>
                 <ul>
@@ -149,7 +149,7 @@ const Cv = ()=> {
                  
                 </ul>
               </div>
-              <div className="text" style={{marginBottom:"3rem"}}>
+              <div className="text job" >
                 <p className="job-title">Frontend Devoloper</p>
                 <p className="time">MealperLTE | April 2021 - present </p>
                 <ul>
@@ -159,7 +159,7 @@ const Cv = ()=> {
                  
                 </ul>
               </div>
-              <div className="text">
+              <div className="text job">
                 <p className="job-title">Frontend Devoloper</p>
                 <p className="time">Frelancer | May 2020 - present </p>
                 <ul>

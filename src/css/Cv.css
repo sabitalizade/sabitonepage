@@ -6,7 +6,7 @@
 :root {
   --border-div-size: 200px;
   --img-size: 150px;
-  --main-color: #25dac1;
+  --main-color: #082032;
 }
 .HeaderCv {
   height: 60px;
@@ -85,8 +85,9 @@ justify-content: center;
   padding: 1rem;
 }
 .cv .left .skills-list ul li {
-  padding-bottom: 4px;
-  font-size: 20px;
+  padding : 8px ;
+  font-size: 22px;
+  
 }
 .cv .right {
   width: 63%;
@@ -121,12 +122,18 @@ justify-content: center;
 }
 .cv .right .text {
   padding-left: 2rem;
+
+}
+.cv .right .job {
+  margin-bottom: 3rem;
+
 }
 .cv .right .text p {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 22px;
 }
 .cv .right .text .job-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
 }
 .cv .right .text .time {
@@ -137,6 +144,9 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.cv .right .job ul li{
+font-size: 18px;
 }
 .cv .right .m-t {
   margin-top: 3rem;
