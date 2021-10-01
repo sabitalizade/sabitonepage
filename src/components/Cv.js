@@ -55,6 +55,9 @@ const Cv = ()=> {
                   <li>
                   Mongo DB
                   </li>
+                   <li>
+                  Docker
+                  </li>
                   <li>
                   File Transfer Protocol (FTP)
                   </li>
