@@ -11,6 +11,7 @@
 .HeaderCv {
   height: 60px;
 }
+ 
 .container{
 overflow: auto;
 /* display: flex; */
@@ -35,6 +36,7 @@ justify-content: center;
   background: #fff;
   min-height: 1222px;
   height:100%;
+  margin: 0 auto;
   min-width: 1200px;
   max-width: 1200px;
   display: flex;
