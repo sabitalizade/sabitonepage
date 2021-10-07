@@ -153,6 +153,20 @@ font-size: 18px;
 .cv .right .m-t {
   margin-top: 3rem;
 }
+
+@media screen and (max-width:470px){
+  .print{
+    position: fixed;
+    top: 125px;
+    right: 1vh;
+    height: 40px;
+    width: 40px;
+  
+     
+    font-size: 18px;
+    z-index: 2222;
+  }
+  }
 /* 
 @media print {
   
