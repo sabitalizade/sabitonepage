@@ -4,7 +4,7 @@
     width: 100%;
     overflow: auto;
     padding: 0 20px;
-    height: 80vh;
+    height: 80vh !important;
     box-sizing: border-box;
     overflow-y: auto;
 }
@@ -50,7 +50,7 @@
 }
 .main .list li .item .image > img {
     width: 100%;
-    border-radius: 15px
+    border-radius: 7px
 }
 .main .list li .item .image .number {
     width: 40px;

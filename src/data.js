@@ -108,7 +108,11 @@ export const data = {
       descritions: [
         {
           id: 1,
-          name: " - I am devoloped internal sistem using Vanila JavaScript, JQuery ReactJs .",
+          name: " - I am devoloped ERP sistem using Vanila JavaScript, JQuery ReactJs .",
+        },
+        {
+          id: 1,
+          name: " - I work with HR, Transport, Finace, WareHouse, Operation modules and submodules.",
         },
       ],
     },
@@ -119,7 +123,7 @@ export const data = {
       descritions: [
         {
           id: 1,
-          name: "- Create Dashboard using React Js.",
+          name: "- Developing Food Delivery app Restourant menegment system using React Js.",
         },
       ],
     },
@@ -147,6 +151,18 @@ export const data = {
       title: "AutoNuh",
     },
     {
+      id: 14,
+      href: "http://blasto.az/",
+      imageName: "img/blasto.png",
+      title: "Blasto",
+    },
+    {
+      id: 15,
+      href: "https://az-dag-meden.com/",
+      imageName: "img/azdag.png",
+      title: "Azer Dag Madan",
+    },
+    {
       id: 2,
       href: "https://googlec.vercel.app/",
       imageName: "img/2.png",
@@ -161,8 +177,8 @@ export const data = {
     {
       id: 4,
       href: "https://covid19trackerreact.vercel.app/",
-      imageName: "img/18.png",
-      title: "Shaking Tree",
+      imageName: "img/1.png",
+      title: "Covid19 tracker with ReactJs",
     },
     {
       id: 5,

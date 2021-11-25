@@ -9,6 +9,10 @@ import vue from "../icons/skills-icon/vue-js-1.svg";
 import sass from "../icons/skills-icon/sass-1.svg";
 import express from "../icons/skills-icon/ex.svg";
 
+
+
+
+
 const Skills = () => {
     return (
         <div>

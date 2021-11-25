@@ -2,6 +2,7 @@
     width: 250px;
     height: 100%;
     background-color: #0F0F1B;
+    z-index: 5;
 }
 .SideBarCv {
     display: none !important;

@@ -5,6 +5,7 @@
     display: grid;
     place-items: center;
     font-size: 2px;
+    z-index: 5;
 }
 .LogoCv{
     height: 100%;

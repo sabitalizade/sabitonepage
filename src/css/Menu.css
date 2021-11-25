@@ -2,6 +2,7 @@
     width: 100%;
     background-color: #0F0F1B;
     color: blanchedalmond;
+    z-index: 5;
 }
 ul{
     display: flex;

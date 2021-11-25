@@ -44,7 +44,7 @@ justify-content: center;
   overflow: hidden;
 }
 .main{
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px) !important;
 }
 .cv .left {
   width: 35%;
