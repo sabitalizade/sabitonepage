@@ -6,6 +6,8 @@
     padding: 0 20px;
     height: 80vh;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -13,6 +15,12 @@ a{
 .Contact i{
     font-size: 30px;
     margin: 0 20px 0 0;
+}
+.Contact .ul{
+    margin: 0 auto;
+    align-items: flex-start;
+    flex-direction: column; 
+
 }
 
 @media screen and (max-width:470px){

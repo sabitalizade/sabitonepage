@@ -13,7 +13,8 @@ const Cv = () => {
   const cv = useRef();
 
   return (
-    <div className="main">
+    <div className="maincv">
+      
       <div className="container">
         <ReactToPrint
           trigger={() => {

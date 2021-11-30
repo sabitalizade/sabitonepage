@@ -46,11 +46,21 @@
     position: relative
 }
 .main .list li .item .image {
-    position: relative
+    position: relative;
+    height:max-content;
 }
 .main .list li .item .image > img {
     width: 100%;
-    border-radius: 7px
+    border-radius: 7px;
+}
+.main .list li .item .image > iframe {
+    width: 1200px;
+    height: 800px;
+    border-radius: 7px; 
+    transform: scale(0.19);
+
+    overflow: hidden;
+    transform-origin: 0 0;
 }
 .main .list li .item .image .number {
     width: 40px;
