@@ -156,6 +156,12 @@ export const data = {
       imageName: "img/blasto.png",
       title: "Blasto",
     },
+      {
+      id: 14,
+      href: "https://drillsupport.com/",
+      imageName: "img/drillsupport.png",
+      title: "Drill Support",
+    },
     {
       id: 15,
       href: "https://az-dag-meden.com/",
