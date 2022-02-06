@@ -101,10 +101,22 @@ export const data = {
     },
   ],
   jobs: [
-    {
+     {
       id: 1,
       title: "Frontend Devoloper",
-      time: "At-Geoetch | June 2021 - present",
+      time: "eiLink | January 2021 - present",
+      descritions: [
+        {
+          id: 1,
+          name: " - I am devoloped Web App with ReactJs,Redux Toolkit .",
+        },
+        
+      ],
+    },
+    {
+      id: 2,
+      title: "Frontend Devoloper",
+      time: "At-Geoetch | June 2021 - January 2022",
       descritions: [
         {
           id: 1,
@@ -117,7 +129,7 @@ export const data = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Frontend Devoloper",
       time: "MealperLTE | April 2021 - present",
       descritions: [
@@ -128,7 +140,7 @@ export const data = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Frontend Devoloper",
       time: "Frelancer | May 2020 - present",
       descritions: [
