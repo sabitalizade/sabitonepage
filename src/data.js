@@ -104,7 +104,7 @@ export const data = {
      {
       id: 1,
       title: "Frontend Devoloper",
-      time: "eiLink | January 2021 - present",
+      time: "eiLink | January 2022 - present",
       descritions: [
         {
           id: 1,
