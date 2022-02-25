@@ -27,7 +27,7 @@ export const data = {
       },
       {
         id: 7,
-        name: " Node Js,Express Js ",
+        name: "Node Js,Express Js ",
       },
       {
         id: 8,
@@ -137,12 +137,16 @@ export const data = {
           id: 1,
           name: "- Developing Food Delivery app Restourant menegment system using React Js.",
         },
+        {
+          id: 2,
+          name: "- Remote and part time",
+        },
       ],
     },
     {
       id: 4,
       title: "Frontend Devoloper",
-      time: "Frelancer | May 2020 - present",
+      time: "Frelancer | May 2020 - September 2021",
       descritions: [
         {
           id: 1,
