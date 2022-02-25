@@ -100,7 +100,7 @@ const Cv = () => {
               </ul>
             </div>
 
-            <div className="text m-t">
+            <div className="text">
               <p className="job-title">NAKHCHVAN STATE UNIVERSITY</p>
               <p className="time">Bachelor of Economy </p>
               <ul>
