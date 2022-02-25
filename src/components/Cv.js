@@ -90,7 +90,7 @@ const Cv = () => {
               </div>
             ))}
 
-            <div className="title m-t">ACADEMIC HISTORY</div>
+            <div className="title ">ACADEMIC HISTORY</div>
             <div className="text">
               <p className="job-title">BAKU STATE UNIVERSITY</p>
               <p className="time">Master of Economy </p>
