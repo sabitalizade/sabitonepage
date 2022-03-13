@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   app:
-    container_name: mealper-prod
-    image: mealper
+    container_name: portfolio-prod
+    image: portfolio-prod
     build:
       context: .
       target: production
