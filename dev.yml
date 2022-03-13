@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   app:
-    container_name: mealper-dev
-    image: mealper-dev
+    container_name: portfolio-dev
+    image: portfolio-dev
     build:
       context: .
       target: development
