@@ -15,4 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Build the Docker image
-      run: docker-compose -f prod.yml up -d --build
+      run: ls
+#       run: docker-compose -f prod.yml up -d --build
