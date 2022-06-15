@@ -1,24 +1,9 @@
-FROM node:14-alpine AS development
-ENV NODE_ENV development
-# Add a work directory
-WORKDIR /app
-# Cache and Install dependencies
-COPY package.json .
-COPY yarn.lock .
-RUN yarn install
-# Copy app files
-COPY . .
-# Expose port
-EXPOSE 3000
-# Start the app
-CMD [ "yarn", "start" ]
-
-
-FROM node:14-alpine AS builder
+FROM node:16-alpine AS builder
 ENV NODE_ENV production 
 WORKDIR /prod 
 COPY package.json .
 COPY yarn.lock .
+RUN yarn config set registry https://registry.npmjs.org
 RUN yarn install --production 
 COPY . . 
 RUN yarn build  
@@ -29,10 +14,15 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./* 
 RUN rm -rf /usr/bin/nc
 COPY --from=builder /prod/build . 
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
-# user
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup \
-    && mkdir -p /var/run/nginx /var/tmp/nginx \
-    && chown -R appuser:appgroup /usr/share/nginx /var/run/nginx /var/tmp/nginx /etc/nginx
 
-USER appuser
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
+
+# user
+RUN chown -R nginx:nginx /usr/share/nginx/html  && chmod -R 755 /usr/share/nginx/html  && \
+        chown -R nginx:nginx /var/cache/nginx && \
+        chown -R nginx:nginx /var/log/nginx && \
+        chown -R nginx:nginx /etc/nginx/conf.d
+RUN touch /var/run/nginx.pid && \
+        chown -R nginx:nginx /var/run/nginx.pid
+
+USER nginx
