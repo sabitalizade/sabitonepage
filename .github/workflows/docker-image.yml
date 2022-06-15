@@ -13,6 +13,6 @@ jobs:
     runs-on: [self-hosted, linux, ARM64]
 
     steps:
-    - uses: sabitalizade@v3
+    - uses: actions/checkout@master
     - name: Build the Docker image
       run: docker-compose -f prod.yml up -d --build
