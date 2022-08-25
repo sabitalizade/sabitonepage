@@ -80,11 +80,11 @@ export const data = {
   contact: [
     {
       id: 1,
-      name: "Cell: +994 70 671 74 74",
+      name: "Phone: +994 70 671 74 74",
     },
     {
       id: 2,
-      name: " Cell: +994 60 271 74 71",
+      name: "Phone: +994 60 271 74 71",
     },
     {
       id: 3,
@@ -108,7 +108,11 @@ export const data = {
       descritions: [
         {
           id: 1,
-          name: " - I am devoloped Web App with ReactJs,Redux Toolkit .",
+          name: "- We develop ML base data convention and visualize data for benchmarking.",
+        },
+        {
+          id: 2,
+          name: "- I am devoloped Web App with ReactJs,Redux Toolkit .",
         },
         
       ],
