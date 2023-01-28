@@ -1,16 +1,14 @@
 import React from "react";
-import "../css/Context.css";
 import Lottie from "lottie-react";
 import * as animationData from "../assets/animations/home.json";
 
 const Context = () => {
   return (
-    <div className="Context">
+    <div className="max-h-[80vh] overflow-hidden flex justify-center items-center">
       <Lottie
         animationData={animationData}
         style={{
-          width: "100%",
-          height: "100%",
+          display: "block",
         }}
       />
     </div>
