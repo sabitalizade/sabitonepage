@@ -15,7 +15,7 @@ const Cv = () => {
       >
         <FcPrint />
       </a>
-      <Document file="files/sabitalizade.pdf">
+      <Document file="./files/sabitalizade.pdf">
         <Page
           className="h-full w-full"
           pageNumber={1}

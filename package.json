@@ -1,7 +1,7 @@
 {
   "homepage": "https://sabitalizade.com",
   "name": "sabitalizade",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

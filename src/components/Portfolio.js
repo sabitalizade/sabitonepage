@@ -24,7 +24,7 @@ const Portfolio = () => {
                     alt="Todo"
                   ></img>
                 </a>
-                <div className="text-lg w-full font-medium p-2 text-center  !border-b !border-b-white">
+                <div className="text-lg w-full font-medium p-2 text-center  !border-b !border-b-slate-600">
                   {portfolio.title}
                 </div>
 
