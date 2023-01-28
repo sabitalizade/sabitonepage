@@ -6,7 +6,7 @@ import { FcPrint } from "react-icons/fc";
 pdfjs.GlobalWorkerOptions.workerSrc = `./pdf.worker.js`;
 const Cv = () => {
   return (
-    <div className="w-min mx-auto">
+    <div className="w-min mx-auto p-2 shadow-md">
       <a
         href="./files/sabitalizade.pdf"
         target="_blank"

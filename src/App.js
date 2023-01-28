@@ -9,7 +9,7 @@ import Cv from "./components/Cv";
 
 const App = () => {
   return (
-    <div className="w-screen h-screen flex flex-col lg:flex-row bg-secondarydark">
+    <div className="w-screen h-screen flex flex-col lg:flex-row dark:bg-secondarydark">
       <div
         className={
           "flex flex-col transition-all duration-300 w-full lg:w-56 min-w-[190px]"

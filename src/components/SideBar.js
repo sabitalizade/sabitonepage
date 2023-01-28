@@ -36,8 +36,8 @@ export const socials = [
 
 const SideBar = () => {
   return (
-    <div className="w-full bg-primarydark h-[6vh] lg:h-full">
-      <ul className="flex py-3 lg:py-0  lg:flex-col gap-5 justify-center items-center h-full text-white">
+    <div className="w-full bg-primarylight dark:bg-primarydark h-[6vh] lg:h-full">
+      <ul className="flex py-3 lg:py-0  lg:flex-col gap-5 justify-center items-center h-full dark:text-white">
         {socials.map((social) => (
           <li key={social.link}>
             <a href={social.link}>

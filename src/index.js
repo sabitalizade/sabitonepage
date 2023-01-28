@@ -1,18 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
-// import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-// import { Provider } from "react-redux";
-// import { store } from "app/store";
-// import "antd/dist/antd.min.css";
+import DarkModeContextProvider from "./contexts/darkMode";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render( 
-    <BrowserRouter>
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter>
+    <DarkModeContextProvider>
       <App />
-    </BrowserRouter> 
+    </DarkModeContextProvider>
+  </BrowserRouter>
 );
-
-// reportWebVitals();

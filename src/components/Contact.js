@@ -99,9 +99,11 @@ const Contact = () => {
         >
           <div className="flex flex-col md:flex-row w-full gap-3">
             <div className="w-full">
-              <h1 className="p-2 text-lg font-semibold">Full Name</h1>
+              <h1 className="p-2 text-lg font-semibold dark:text-white text-black">
+                Full Name
+              </h1>
               <input
-                className="h-14 w-full rounded-xl border-none outline-none focus:outline-none p-2 text-black text-lg"
+                className="h-14 w-full rounded-xl border-none bg-slate-600 dark:bg-white outline-none focus:outline-none p-2 text-white dark:text-black text-lg"
                 {...register("fullName", { required: true })}
                 placeholder="Full Name"
               />
@@ -110,9 +112,11 @@ const Contact = () => {
               )}
             </div>
             <div className="w-full">
-              <h1 className="p-2 text-lg font-semibold">Phone</h1>
+              <h1 className="p-2 text-lg font-semibold dark:text-white text-black">
+                Phone
+              </h1>
               <input
-                className="h-14 w-full rounded-xl border-none outline-none focus:outline-none p-2 text-black text-lg"
+                className="h-14 w-full rounded-xl border-none bg-slate-600 dark:bg-white outline-none focus:outline-none p-2 text-white dark:text-black text-lg"
                 {...register(
                   "phone",
                   { required: true },
@@ -126,9 +130,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="p-2 text-lg font-semibold">Message</h1>
+            <h1 className="p-2 text-lg font-semibold dark:text-white text-black">
+              Message
+            </h1>
             <textarea
-              className="rounded-xl border-none outline-none focus:outline-none p-2 text-black text-lg"
+              className="rounded-xl border-none outline-none bg-slate-600 dark:bg-white focus:outline-none p-2 text-white dark:text-black text-lg"
               {...register("message", { required: true })}
               placeholder="Message"
               rows="5"

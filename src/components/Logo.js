@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useIsDarkMode } from "../contexts/darkMode";
 
 const Logo = () => {
+  const { isDarkMode } = useIsDarkMode();
   return (
     <Link
       to="/"
@@ -10,7 +12,11 @@ const Logo = () => {
       }
     >
       <img
-        src="/logo/default-monochrome-white.svg"
+        src={
+          isDarkMode
+            ? "/logo/default-monochrome-white.svg"
+            : "/logo/default-monochrome-black.svg"
+        }
         className="logo-w lg:w-full"
         alt="logo"
       />
