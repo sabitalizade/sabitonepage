@@ -27,13 +27,12 @@ const Menu = () => {
   const { isDarkMode, setDarkMode } = useIsDarkMode();
   console.log(isDarkMode);
   const toggleDarkMode = (checked) => {
-    setTheme(colorTheme);
-    // console.log(checked)
+    setTheme(colorTheme); 
     setDarkMode(checked);
   };
   return (
     <div className="w-full bg-primarylight dark:bg-primarydark h-[6vh] lg:h-[20vh] shrink-0">
-      <ul className="text-black dark:text-white flex gap-3 justify-center items-center h-full">
+      <ul className="text-black dark:text-white flex gap-3 justify-center items-center h-full ">
         {menu.map((item) => (
           <li
             className="hover:text-gray-800 dark:hover:text-gray-300"
@@ -41,7 +40,7 @@ const Menu = () => {
           >
             <NavLink
               className={({ isActive }) =>
-                isActive ? "text-green-500" : "text-black dark:text-white"
+                isActive ? "text-green-500" : "text-black dark:text-white font-['Montserrat']"
               }
               to={item.link}
             >

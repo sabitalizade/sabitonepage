@@ -68,7 +68,7 @@ const Contact = () => {
       </div>
       <div>
         <div className="flex justify-center items-center pt-10">
-          <h1 className="text-2xl font-bold">Direct Telegram Message</h1>
+          <h1 className="text-2xl font-bold text-black dark:text-white">Direct Telegram Message</h1>
         </div>
         {(loading === status.success || loading === status.error) && (
           <div

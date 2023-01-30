@@ -50,3 +50,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* ref: https://dev.to/ziqinyeow/how-to-add-custom-font-file-to-your-react-app-31kb */
+@font-face {
+  font-family: "Montserrat"; /*Can be any text*/
+  src: local("Montserrat-VariableFont_wght"),
+    url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
