@@ -18,7 +18,7 @@ const Cv = () => {
       <Document file="./files/sabitalizade.pdf">
         <Page
           className="h-full w-full"
-          pageNumber={1}
+          pageNumber={2}
           scale={1.3}
           loading={
             <div className="w-full h-full flex justify-center items-center text-3xl text-white">
