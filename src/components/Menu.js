@@ -9,10 +9,10 @@ const menu = [
     name: "Home",
     link: "/",
   },
-  {
-    name: "Portfolio",
-    link: "/portfolio",
-  },
+  // {
+  //   name: "Portfolio",
+  //   link: "/portfolio",
+  // },
   {
     name: "Cv",
     link: "/cv",
